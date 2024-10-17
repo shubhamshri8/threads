@@ -1,5 +1,7 @@
 package AdderSubtracter;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Count {
-    public int value = 0;
+    public AtomicInteger value = new AtomicInteger(0);
 }
